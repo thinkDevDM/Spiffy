@@ -1,0 +1,474 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+/*********
+NAVIGATION
+*********/
+nav {
+	background-color: #222;
+	display: flex;
+}
+
+#nav-wrapper {
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#logo {
+	font-family: "Lobster Two";
+	font-size: 1.25em;
+	display: inline-block;
+	color: #099;
+	margin-top: 10px;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	display: inline;
+	float: right;
+}
+
+#nav ul li {
+	display: inline-block;
+	font-weight: bold;
+}
+
+#nav ul li a:hover {
+	background-color: #333;
+	color: #099;
+}
+
+#nav ul li a {
+	color: #EBE8EB;
+	display: block; /* Makes link cover the whole area of the li */
+	padding: 15px;
+	text-decoration: none;
+}
+
+/***********
+MAIN CONTENT
+***********/
+
+#main {
+	background: #099;
+	min-height: 700px;
+	color: #222;
+	text-align: center;
+	display: flex;
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 160px;
+}
+
+header h1 {
+	font-size: 6.25em; /* 86/16 */
+	margin-bottom: 0;
+	text-shadow: 1px 1px #ccc;
+}
+
+header h3 {
+	font-family: "Pacifico", sans-serif;
+	font-size: 2em;
+}
+
+#social {
+	margin-top: 45px;
+}
+
+#social img {
+	background: #EBE8EB;
+	border-radius: 100%;
+}
+
+#social img:hover {
+	background: #099;
+	border-radius: 100%;
+}
+
+#sub-one {
+	background: #222;
+	min-height: 500px;
+	color: #EBE8EB;
+	display: flex;
+}
+
+#sub-one h2 {
+	margin-top: 40px;
+	text-align: center;
+	border-bottom: 1px solid #EBE8EB;
+	padding-bottom: 10px;
+}
+
+#columns {
+	width: 100%;
+}
+
+#columns .column {
+	position: relative;
+	width: 45%;
+}
+
+#columns .left {
+	float: left;
+	line-height: 1.35em;
+	text-align: justify;
+	border-right: 1px solid #EBE8EB;
+	padding-right: 50px;
+	padding-left: 8px;
+}
+
+#columns .right {
+	float: right;
+	line-height: 1.35em;
+	text-align: justify;
+	padding-right: 8px;
+}
+
+#sub-two {
+	background: #099;
+	min-height: 700px;
+	color: #222;
+	display: flex;
+}
+
+.full-width {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+#sub-two h2 {
+	margin: 40px auto 0 auto;
+	text-align: center;
+	width: 200px;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+}
+
+#folio-desc {
+	width: 30%;
+	line-height: 1.35em;
+	float: left;
+	text-align: justify;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px #ccc;
+	padding: 0 6px;
+}
+
+#image {
+	margin-top: 80px;
+	float: left;
+}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#gallery li {
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: right;
+	cursor: pointer;
+	margin: 0 0 10px 30px;
+	padding-right: 6px;
+	border-radius: 5px;
+}
+
+#gallery img {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+}
+
+#gallery img:hover {
+	border: 2px solid #ccc;
+}
+
+#contact {
+	background: #ccc;
+	min-height: 400px;
+	color: #333;
+	display: flex;
+}
+
+#contact h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#form {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#contact-form {
+	padding: 15px;
+}
+
+#float-left {
+	float: left;
+}
+
+#float-right {
+	float: right;
+}
+
+label {
+	font-weight: bold;
+	font-size: 1.125em;
+}
+
+textarea {
+	width: 31.25em;
+	height: 10.25em;
+	border-radius: 5px;
+	border: 1px solid #099;
+	margin-top: 2px;
+	font-family: Arial, sans-serif;
+	font-size: 0.875em;
+	padding: 4px;
+	color: #222;
+}
+
+input[type="text"] {
+	width: 17.1875em;
+	height: 1.75em;
+	text-indent: 3px;
+	border: 1px solid #099;
+	margin-top: 2px;
+	font-family: Arial, sans-serif;
+	font-size: 0.875em;
+	color: #222;
+}
+
+.input-form {
+	border-radius: 5px;
+}
+
+#submit-button {
+	border: none;
+	border-radius: 5px;
+	background: #222;
+	font-weight: bold;
+	color: #EBE8EB;
+	height: 2.8125em;
+}
+
+#submit-button:hover {
+	color: #099;
+	cursor: pointer;
+}
+
+footer {
+	background: #222;
+	min-height: 80px;
+	border-top: #099 solid 4px;
+	color: #EBE8EB;
+	padding: 20px 0;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+footer a {
+	text-decoration: none;
+	color: #099;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+span {
+	font-weight: bold;
+}
+
+
+/************
+MEDIA QUERIES
+************/
+@media only screen and (max-width: 1390px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#form {
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1330px) {
+	#gallery {
+		width: 70%;
+	}
+
+	#folio-desc {
+		width: 25%;
+	}
+
+	#image {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 1240px) {
+	#form {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	#columns .left {
+	border: none;
+	padding-right: 50px;
+	padding-left: 8px;
+}
+}
+
+@media only screen and (max-width: 1142px) {
+	#gallery {
+		width: 75%;
+	}
+
+	#folio-desc {
+		width: 20%;
+	}
+
+	#image {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	#gallery {
+		width: 80%;
+		padding-right: 132px;
+	}
+
+	#folio-desc {
+		display: none;
+	}
+
+	#form {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	#gallery {
+		width: 85%;
+		padding-right: 100px;
+	}
+
+	#form {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 968px) {
+	#gallery {
+		width: 90%;
+		padding-right: 70px;
+	}
+
+	#form {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	textarea {
+		width: 25em;
+		height: 10.25em;
+	}
+}
+
+@media only screen and (max-width: 894px) {
+	#gallery {
+		width: 100%;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (max-width: 810px) {
+	#nav-wrapper {
+		width: 100%;
+	}
+
+	#logo {
+		font-size: 1.5em;
+		display: block;
+		text-align: center;
+	}
+
+	#nav ul {
+		display: block;
+	}
+
+	#columns .column {
+	width: 100%;
+	}
+
+	#columns .left {
+		float: none;
+		padding: 0;
+		display: block;
+		line-height: 1.35em;
+		text-align: justify;
+	}
+
+	#columns .right {
+		float: none;
+		padding: 0;
+		display: block;
+		line-height: 1.35em;
+		text-align: justify;
+	}
+
+	#gallery {
+		width: 100%;
+		padding-right: 120px;
+	}
+
+	#float-left {
+		float: none;
+	}
+
+	#float-right {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#gallery {
+		padding-right: 120px;
+	}
+}
